@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style3.css">
+        <title >Drago G Cuangga</title>
+        <script src="https://kit.fontawesome.com/25bf43ab7d.js" crossorigin="anonymous"></script>
+        <link rel="icon" href="logo.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;0,900;1,300&family=Lilita+One&family=Pathway+Gothic+One&family=Recursive:wght@700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="header">
+            <nav>
+                <a class="logo" href="FinalProject.html">DRAGO GRAFANY CUANGGA</a>
+                <div class="navigation" id="navigatt">
+                    <i class="fas fa-times" onclick="hide()"></i>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="location.html">Location</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <i class="fas fa-ellipsis-v" onclick="show()"></i>
+            </nav>
+        </header>
+        <article class="body2">
+            <h1 class="welcome" >
+            </h1>
+            <div class="circlepos">
+                <img src="pngfind.com-white-circles-png-3619117.png" width="200" class="circle">
+            </div>
+        </article>
+        <script>
+            var navigatt = document.getElementById("navigatt")
+
+            function show(){
+                navigatt.style.left="0";
+            }
+            function hide(){
+                navigatt.style.left="-100%"
+            }
+        </script>
+    </body>
+</html>
