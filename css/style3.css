@@ -63,7 +63,12 @@ nav{
     padding: 7% 2%;
     animation: glow 2s infinite;
 }
-
+.circle:hover{
+    animation: none;
+    transition: 0s;
+    box-shadow: 0px 0px 50px white;
+    opacity: 100%;
+}
 @keyframes glow{
     0%  {opacity: 30%;
         box-shadow: 0px 0px 10px white}
