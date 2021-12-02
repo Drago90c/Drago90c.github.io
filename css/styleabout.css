@@ -28,6 +28,7 @@ nav{
 .whatever{
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 20px;
+    text-align: justify;
 }
 .whateverpad{
     padding: 4% 30%;
