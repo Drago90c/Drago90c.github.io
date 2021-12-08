@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../css/stylecontact.css">
+        <title >Drago G Cuangga</title>
+        <script src="https://kit.fontawesome.com/25bf43ab7d.js" crossorigin="anonymous"></script>
+        <link rel="icon" href="logo.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;0,900;1,300&family=Lilita+One&family=Monoton&family=Pathway+Gothic+One&family=Recursive:wght@700&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+        <header class="header">
+            <nav>
+                <a class="logo" href="../index.html">DRAGO GRAFANY CUANGGA</a>
+                <div class="navigation" id="navigatt">
+                    <i class="fas fa-times" onclick="hide()"></i>
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="location.html">Location</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <i class="fas fa-ellipsis-v" onclick="show()"></i>
+            </nav>
+        </header>
+        <article class="body2">
+            <div class="contact">CONTACT</div>
+            <br>
+            <div class="contactcontent">Hey there! These are some platform<br>that I'm using right now.<br>Feel free to contact me!</div>
+            <section class="socmed">
+                <a href="https://instagram.com/drago90c"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/Dragoflyy"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/drago-cuangga-7b0438216"><i class="fab fa-linkedin-in"></i></a>
+            </section>
+            <div class="contactcontent">Here's another way of contacting me<br>You can even do it anonymously!</div>
+            <br>
+            <br>
+            <div class="contact-col">
+                <form action="https://formsubmit.co/drago.g.cuang@gmail.com" method="POST">
+                    <input type="text" name="name" placeholder="Enter your name (optional)">
+                    <input type="text" name="email" placeholder="Enter your email address (optional)">
+                    <input type="hidden" name="_subject" value="Ya finally get something!">
+                    <input type="text" name="subject" placeholder="Enter the subject (optional)">
+                    <input type="hidden" name="_template" value="box">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="https://cuangga.me/html/thankyou.html">
+                    <textarea rows="10" name="message" placeholder="Enter your message here" required></textarea>
+                    <button type="Submit" class="submit-btn">Send the Message</button>
+               </form>
+            </div>
+        </article>
+        <script>
+            var navigatt = document.getElementById("navigatt")
+
+            function show(){
+                navigatt.style.left="0";
+            }
+            function hide(){
+                navigatt.style.left="-100%"
+            }
+        </script>
+    </body>
+</html>
