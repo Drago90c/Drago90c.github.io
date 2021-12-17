@@ -93,9 +93,9 @@ nav{
     background-color: rgba(209, 209, 209, 0.768);
 }
 .socmed{
-    display: flex;
+    display: block;
     padding: 2% 10%;
-    justify-content: center;
+    text-align: center;
 }
 .socmed a{
     font-size: 35px;
@@ -162,6 +162,70 @@ nav{
     width: 170px;
     height: 170px;
     background-position: center;
+}
+.fa-twitter{
+    font-size: 35px;
+    transition: 0.8s;
+}
+.fa-twitter:hover{
+    color: rgb(0, 115, 255);
+}
+.secondins .fa-instagram{
+    font-size: 35px;
+    z-index: 1;
+    display: inline-block;
+    background-image: url(../photo/instagram.png);
+    background-repeat: no-repeat;
+    transition: 0.8s;
+    opacity: 0%;
+    background-size: 33px 33px;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.secondins .fa-instagram:hover{
+    opacity: 100%;
+}
+.fa-linkedin-in{
+    transition: 0.8s;
+}
+.fa-linkedin-in:hover{
+    color:rgb(1, 85, 189)
+}
+.firstins{
+    position: absolute;
+}
+.firstins .fa-instagram{
+    z-index: 0;
+}
+/*
+.backgroundinsta{
+    position: absolute;
+    background-color: black;
+    z-index: 0;
+    width: 33px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+*/
+.wrapper{
+    display: inline-block;
+    position: relative;
+}
+/*
+.backinsta:hover{
+    /*
+    background-image: linear-gradient(to bottom left, rgb(192, 27, 204), yellow);
+    background-size: auto;
+    
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}*/
+.nothingla{
+    display: inline;
 }
 
 @keyframes glow{
