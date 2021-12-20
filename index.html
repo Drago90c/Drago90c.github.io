@@ -12,9 +12,17 @@
         <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;0,900;1,300&family=Lilita+One&family=Pathway+Gothic+One&family=Recursive:wght@700&display=swap" rel="stylesheet">
     </head>
     <body>
+        <div id="overlayer"></div>
+        <div class="preloader">
+            afsd
+           <div class="loader">
+              <div class="loader-inner"></div>
+           </div>
+           <p> Loading...</p>
+        </div>
         <header class="header">
             <nav>
-                <a class="logo" href="FinalProject.html">DRAGO GRAFANY CUANGGA</a>
+                <a class="logo" href="index.html">DRAGO GRAFANY CUANGGA</a>
                 <div class="navigation" id="navigatt">
                     <i class="fas fa-times" onclick="hide()"></i>
                     <ul>
@@ -45,4 +53,16 @@
             }
         </script>
     </body>
+    <!-- jQuery -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script>
+        $(window).load(function() {
+            $(".preloader").delay(1000).fadeOut(1500);
+            $("#overlayer").delay(1000).fadeOut(1500);
+            setTimeout(function(){
+                document.body.style.overflow = "auto";
+            }, 1000);
+        })
+        $()
+    </script>
 </html>
